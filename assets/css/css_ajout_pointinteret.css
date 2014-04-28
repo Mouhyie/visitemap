@@ -69,6 +69,10 @@
     color:green;
 }
 
+#add_location_link:hover{
+    color:green;
+}
+
 .succes {
     background-color: #33CC33;
     border-radius: 5px;

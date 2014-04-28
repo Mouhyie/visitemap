@@ -14,6 +14,21 @@
                 <legend>Ajouter un point d'interet</legend>
                 <div class="row">
                     <div class="small-3 columns">
+                        <label for="type_input" class="right"> Type </label>
+                    </div>
+                    <div class="small-6 columns">
+                        <select id="type_select" name="type" required="required">
+                            <option value="parc">Parc</option>
+                            <option value="musee">Musée</option>
+                            <option value="autres">Autres</option>
+                        </select>
+                    </div>
+                    <div class="small-1 columns">
+                        <i id="save_point"  class="fa fa-save fa-2x right"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-3 columns">
                         <label for="name_input" class="right"> Nom </label>
                     </div>
                     <div class="small-6 columns">
@@ -28,7 +43,8 @@
                     <div class="small-3 columns">
                         <input id="price_input" type="text" name="price"/>
                     </div>
-                    <div class="small-6 columns"></div>
+                    <div class="small-1 columns"><label class="left">€</label></div>
+                    <div class="small-5 columns"></div>
                 </div>
                 <div class="row">
                     <div class="small-3 columns">
@@ -50,8 +66,8 @@
                         <input id="location_input" type='text' name='location' required="required"/>
 
                     </div>
-                    <i class="fa fa-globe fa-2x"></i>
-                    <div>
+                    <i id="add_location_link"  class="fa fa-plus-circle fa-2x"></i>
+                    <div class="small-1 columns">
 
                     </div>
                 </div>

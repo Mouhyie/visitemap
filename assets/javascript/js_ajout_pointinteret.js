@@ -10,6 +10,9 @@ $(function(){
     var video_cpt = 2;
     var id_video = '';
 
+    var location_cpt = 2;
+    var id_location = '';
+
     obj.on('dragenter', function (e)
     {
         e.stopPropagation();
@@ -91,6 +94,19 @@ $(function(){
     });
 
 
+    $('#add_location_link').click(function(){
+
+
+        $(' <input id="location_input' + location_cpt  + '" type="text" name="location' + location_cpt +'" required="required" />').insertAfter("#location_input" + id_location);
+
+        if (id_location == '')
+            id_location = 1;
+
+        id_location++;
+        location_cpt++;
+
+    });
+
     $("#date_input" ).datepicker();
 
     // Attribution note
@@ -107,5 +123,8 @@ $(function(){
         openEffect	: 'none',
         closeEffect	: 'none'
     });
+
+
+
 
 });
