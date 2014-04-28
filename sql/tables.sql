@@ -1,6 +1,6 @@
 -- Table Photo --
 CREATE TABLE photo(
-  id_photo INT PRIMARY KEY AUTO_INCREMENT,,
+  id_photo INT PRIMARY KEY AUTO_INCREMENT,
   titre VARCHAR(255),
   image VARCHAR(255) NOT NULL,
   description VARCHAR(255)
@@ -10,7 +10,7 @@ CREATE TABLE photo(
 
 -- Table Vidéo --
 CREATE TABLE video(
-  id_video INT PRIMARY KEY AUTO_INCREMENT,,
+  id_video INT PRIMARY KEY AUTO_INCREMENT,
   titre VARCHAR(255),
   lien VARCHAR(255) NOT NULL,
   description VARCHAR(255)
@@ -19,7 +19,7 @@ CREATE TABLE video(
 
 -- Table des point d'interets --
 CREATE TABLE point_interet(
-  id_point_interet INT PRIMARY KEY AUTO_INCREMENT,,
+  id_point_interet INT PRIMARY KEY AUTO_INCREMENT,
   nom VARCHAR(255) NOT NULL,
   cout INT NOT NULL,
   description VARCHAR(255) NOT NULL,
@@ -45,4 +45,4 @@ CREATE TABLE liste_photo(
   PRIMARY KEY(id_point_interet_FK,id_photo_FK),
   CONSTRAINT FOREIGN KEY (id_photo_FK) REFERENCES photo(id_photo),
   CONSTRAINT FOREIGN KEY (id_point_interet_FK) REFERENCES point_interet(id_point_interet)
-)
+);

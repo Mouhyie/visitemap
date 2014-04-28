@@ -14,7 +14,7 @@ class Pointinteret extends CI_Controller
      */
     public function ajout()
     {
-
+        $this->load->view('header.php');
         // Si l'user valide le formulaire
         if (isset($_POST['send']) && !empty($_POST['send'])) {
 
@@ -62,6 +62,8 @@ class Pointinteret extends CI_Controller
         }else{
             $this->load->view('vue_ajout_pointinteret.php');
         }
+        $this->load->view('menu_gauche.php');
+        $this->load->view('footer.php');
 
 
 
