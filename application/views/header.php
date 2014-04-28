@@ -16,28 +16,30 @@
 </header>
 <body>
 
-<h1> VisiteMap </h1>
-
-
 <!-- Header and Nav -->
 
 <div class="row">
-    <div class="large-3 columns">
-        <h1><img src="http://placehold.it/400x100&text=Logo"/></h1>
+    <div class="large-5 columns">
+        <h1>VISITE MAP</h1>
     </div>
-    <div class="large-9 columns">
-        <ul class="inline-list right">
-            <li><a href="#">Section 1</a></li>
-            <li><a href="#">Section 2</a></li>
-            <li><a href="#">Section 3</a></li>
-            <li><a href="#">Section 4</a></li>
+    <div class="menu_haut large-7 columns">
+        <ul class="inline-list left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <ul  class="inline-list right">
+            <li>
+                <a href="#"><i class="fa fa-shopping-cart"></i> Mes points</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i> Mon compte</a></a>
+            </li>
         </ul>
     </div>
 </div>
 
 <!-- End Header and Nav -->
-
-
-<div class="row">
 
 

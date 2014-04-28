@@ -62,7 +62,6 @@ class Pointinteret extends CI_Controller
         }else{
             $this->load->view('vue_ajout_pointinteret.php');
         }
-        $this->load->view('menu_gauche.php');
         $this->load->view('footer.php');
 
 

@@ -1,7 +1,13 @@
 
-    <!-- Main Content Section -->
+
+<div class="row">
+
+
+
+<!-- Main Content Section -->
     <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
-    <div class="large-9 push-3 columns">
+    <!-- push-5 -->
+    <div class="large-7 large-push-5 columns">
 
         <form method='POST' action=''>
             <fieldset>
@@ -44,9 +50,10 @@
                         <input id="location_input" type='text' name='location' required="required"/>
 
                     </div>
-                    <a class="various fancybox.iframe" href="http://maps.google.com/?output=embed&amp;f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=London+Eye,+County+Hall,+Westminster+Bridge+Road,+London,+United+Kingdom&amp;hl=lv&amp;ll=51.504155,-0.117749&amp;spn=0.00571,0.016512&amp;sll=56.879635,24.603189&amp;sspn=10.280244,33.815918&amp;vpsrc=6&amp;hq=London+Eye&amp;radius=15000&amp;t=h&amp;z=17">
-                        <i class="fa fa-globe fa-2x"></i>
-                    </a>
+                    <i class="fa fa-globe fa-2x"></i>
+                    <div>
+
+                    </div>
                 </div>
                 <div class="row">
                     <div class="small-3 columns">
@@ -101,3 +108,21 @@
 
     </div>
 
+
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <!-- pull-7 -->
+    <div class="large-5 large-pull-7 columns">
+        <div class="flex-video">
+            <iframe
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBiApKFMvi88NQNIhpYl35pxjLWia9xk_8&q=troyes">
+            </iframe>
+
+        </div>
+        <div class="flex-video">
+            <iframe src="//www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+    </div>
+</div>
