@@ -132,12 +132,12 @@
         <div class="flex-video">
             <iframe
                 frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBiApKFMvi88NQNIhpYl35pxjLWia9xk_8&q=troyes">
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBiApKFMvi88NQNIhpYl35pxjLWia9xk_8&q=foret+orient">
             </iframe>
 
         </div>
         <div class="flex-video">
-            <iframe src="//www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+            <iframe src="//www.youtube.com/embed/VcoiUt6KpZU" frameborder="0" allowfullscreen></iframe>
         </div>
 
     </div>
