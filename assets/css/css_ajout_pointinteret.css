@@ -62,18 +62,25 @@
 }
 
 #add_video_link {
-   margin-top: 2px;
+    margin-top: 2px;
+    color:green;
 }
 
 #add_video_link:hover{
+    cursor:pointer;
+}
+
+#add_location_link{
+    margin-top: 2px;
     color:green;
 }
 
 #add_location_link:hover{
-    color:green;
+    cursor:pointer;
 }
 
-.succes {
+
+.success {
     background-color: #33CC33;
     border-radius: 5px;
     padding: 15px 0px;
@@ -81,4 +88,7 @@
 }
 .menu_haut{
     margin-top:20px;
+}
+#dialog{
+    display:none;
 }

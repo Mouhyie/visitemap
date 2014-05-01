@@ -112,7 +112,12 @@ $(function(){
     // Attribution note
     $('#rating').raty();
 
-    $(".various").fancybox({
+    $( "#dialog_video" ).mouseover(function() {
+        $( "#dialog" ).dialog();
+
+    });
+
+    /*$(".various").fancybox({
         maxWidth	: 800,
         maxHeight	: 600,
         fitToView	: false,
@@ -122,8 +127,7 @@ $(function(){
         closeClick	: false,
         openEffect	: 'none',
         closeEffect	: 'none'
-    });
-
+    });*/
 
 
 

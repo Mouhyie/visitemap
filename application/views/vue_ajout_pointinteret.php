@@ -81,9 +81,11 @@
                 </div>
                 <div class="row">
                     <div class="small-3 columns">
-                        <label for="http_title" class="right"> Vidéo </label>
+                        <label id="dialog_video" for="http_title" class="right"> Vidéo </label>
                     </div>
-
+                    <div id="dialog" title="Aide">
+                        <p>Vous pouvez coller le lien ici et le tester.</p>
+                    </div>
                     <div class="small-8 columns">
                         <input id="video_input" type="text" name="video" placeholder="http://" />
                     </div>
@@ -141,4 +143,5 @@
         </div>
 
     </div>
+
 </div>

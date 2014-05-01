@@ -1,19 +1,21 @@
 <html>
-<header>
+<head>
     <meta charset="utf-8"/>
 
     <link rel="stylesheet" href="<?php echo css_url('foundation') ?>">
     <link rel="stylesheet" href="<?php echo css_url('font-awesome/css/font-awesome.min') ?>">
     <link rel="stylesheet" href="<?php echo css_url('css_ajout_pointinteret') ?>">
-    <link rel="stylesheet" href="<?php echo css_url('Jquery-ui/jquery-ui-1.10.4.custom.min') ?>">
+    <link rel="stylesheet" href="<?php echo css_url('Jquery-ui/jquery-ui-1.10.4.min') ?>">
+
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="<?php echo js_url('jquery-ui-1.10.4.custom.min') ?>"></script>
+    <script src="<?php echo js_url('jquery-ui-1.10.4.min') ?>"></script>
+    <script src="<?php echo js_url('jquery-ui-1.10.2') ?>"></script>
     <script src="<?php echo js_url('jquery.raty') ?>"></script>
     <script src="<?php echo js_url('js_ajout_pointinteret') ?>"></script>
     <title> VisiteMap </title>
 
-</header>
+</head>
 <body>
 
 <!-- Header and Nav -->
