@@ -38,12 +38,12 @@
                 </div>
                 <div class="row">
                     <div class="small-3 columns">
-                        <label for="price_input" class="right"> Coût </label>
+                        <label for="price_input" class="right"> Prix </label>
                     </div>
                     <div class="small-3 columns">
                         <input id="price_input" type="text" name="price"/>
                     </div>
-                    <div class="small-1 columns"><label class="left">€</label></div>
+                    <div class="small-1 columns"><i class="fa fa-eur"></i></div>
                     <div class="small-5 columns"></div>
                 </div>
                 <div class="row">
@@ -76,7 +76,7 @@
                         <label for="dragandrop" class="right"> Photo(s) </label>
                     </div>
                     <div class="small-9 columns">
-                        <div id="dragandrop">Déposez vos photos ici</div>
+                        <div id="dragandrop">Glissez vos photos ici</div>
                     </div>
                 </div>
                 <div class="row">
@@ -132,7 +132,7 @@
         <div class="flex-video">
             <iframe
                 frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBiApKFMvi88NQNIhpYl35pxjLWia9xk_8&q=foret+orient">
+                src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBiApKFMvi88NQNIhpYl35pxjLWia9xk_8&q=foret+orient">
             </iframe>
 
         </div>

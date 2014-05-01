@@ -24,10 +24,7 @@
     </div>
     <div class="menu_haut large-7 columns">
         <ul class="inline-list left">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#">Accueil</a></li>
         </ul>
         <ul  class="inline-list right">
             <li>
