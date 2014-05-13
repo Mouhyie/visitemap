@@ -62,7 +62,7 @@
                     <div class="small-3 columns">
                         <label for="location_input" class="right"> Position </label>
                     </div>
-                    <div class="small-3 columns">
+                    <div class="small-8 columns">
                         <input id="location_input" type='text' name='location' required="required"/>
 
                     </div>
@@ -108,7 +108,6 @@
                         <label for="rating" class="right"> Note </label>
                     </div>
                     <div class="small-9 columns">
-
                         <span class="rating"></span>
                         <div id="rating"/></div>
                     </div>
@@ -133,6 +132,8 @@
     <div class="large-5 large-pull-7 columns">
         <div class="flex-video" id="map-canvas" >
         </div>
+        <div id="location_cpt_div">2</div>
+        <div id="id_location_div"></div>
         <div class="flex-video">
             <iframe src="//www.youtube.com/embed/VcoiUt6KpZU" frameborder="0" allowfullscreen></iframe>
         </div>
