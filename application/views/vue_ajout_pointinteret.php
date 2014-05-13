@@ -131,12 +131,7 @@
     <!-- This is source ordered to be pulled to the left on larger screens -->
     <!-- pull-7 -->
     <div class="large-5 large-pull-7 columns">
-        <div class="flex-video">
-            <iframe
-                frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBiApKFMvi88NQNIhpYl35pxjLWia9xk_8&q=foret+orient">
-            </iframe>
-
+        <div class="flex-video" id="map-canvas" >
         </div>
         <div class="flex-video">
             <iframe src="//www.youtube.com/embed/VcoiUt6KpZU" frameborder="0" allowfullscreen></iframe>
