@@ -12,7 +12,7 @@
     <script src="<?php echo js_url('jquery-ui-1.10.4.min') ?>"></script>
     <script src="<?php echo js_url('jquery.raty') ?>"></script>
     <script src="<?php echo js_url('js_ajout_pointinteret') ?>"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
     <script src="<?php echo js_url('js_googlemap_ajout_pointinteret') ?>"></script>
     <title> VisiteMap </title>
 </head>

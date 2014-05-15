@@ -10,7 +10,6 @@ $(function(){
     var video_cpt = 2;
     var id_video = '';
 
-    var location_cpt = 2;
     var id_location = '';
 
     obj.on('dragenter', function (e)
@@ -81,7 +80,6 @@ $(function(){
 
     $('#add_video_link').click(function(){
 
-
         $(' <input id="video_input' + video_cpt  + '" type="text" name="video' + video_cpt +'" placeholder="http://" />').insertAfter("#video_input" + id_video);
 
 
@@ -96,15 +94,7 @@ $(function(){
 
     $('#add_location_link').click(function(){
 
-
-        $(' <input id="location_input' + location_cpt  + '" type="text" name="location' + location_cpt +'" required="required" />').insertAfter("#location_input" + id_location);
-
-        if (id_location == '')
-            id_location = 1;
-
-        id_location++;
-        location_cpt++;
-
+        ajoute_location("");
     });
 
     $("#date_input" ).datepicker();
@@ -132,3 +122,35 @@ $(function(){
 
 
 });
+function ajoute_location(position){
+
+
+    var location_cpt = parseInt($('#location_cpt_div').text());
+    var id_location = ($('#id_location_div').text());
+
+
+    $(' <input id="location_input' + location_cpt  + '" type="text" name="location' + location_cpt +'" required="required" value="'+position+'"/>').insertAfter("#location_input" + id_location);
+
+    if (id_location == '')
+        id_location = 1;
+
+    id_location++;
+    location_cpt++;
+
+    $('#location_cpt_div').text(location_cpt);
+    $('#id_location_div').text(id_location);
+
+}
+
+function syn_location(position){
+    var location_input = "location_input"+($('#id_location_div').text());
+
+    if ($("#"+location_input).val() != "")
+        ajoute_location(position);
+    else
+        $("#"+location_input).val(position);
+}
+
+function valide_location(position){
+    var location_input
+}

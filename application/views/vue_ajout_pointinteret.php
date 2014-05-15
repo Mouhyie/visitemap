@@ -24,7 +24,6 @@
                         </select>
                     </div>
                     <div class="small-1 columns">
-                        <i id="save_point"  class="fa fa-save fa-2x right"></i>
                     </div>
                 </div>
                 <div class="row">
@@ -58,7 +57,7 @@
                     <!-- <i id="datepickerImage" class="fa fa-calendar fa-2x"></i> -->
 
                 </div>
-                <div class="row">
+                <div class="row position">
                     <div class="small-3 columns">
                         <label for="location_input" class="right"> Position </label>
                     </div>
@@ -108,6 +107,7 @@
                         <label for="rating" class="right"> Note </label>
                     </div>
                     <div class="small-9 columns">
+
                         <span class="rating"></span>
                         <div id="rating"/></div>
                     </div>
@@ -132,6 +132,7 @@
     <div class="large-5 large-pull-7 columns">
         <div class="flex-video" id="map-canvas" >
         </div>
+        <input id="pac-input" class="controls" type="text" placeholder="Recherche">
         <div id="location_cpt_div">2</div>
         <div id="id_location_div"></div>
         <div class="flex-video">
