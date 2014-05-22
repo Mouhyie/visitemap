@@ -12,25 +12,7 @@ Cet outil a été crée par :
       Guokan Shang <guokan.shang@utt.fr>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 VisiteMap est protégé par l''Agence pour la protection des programmes (APP)
 http://www.app.asso.fr
+
 Toute réutilisation est interdite.
