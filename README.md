@@ -3,6 +3,7 @@ VisiteMap
 
 VisiteMap, un portail collaboratif de circuits touristiques.
 
+Ce portail permet au visiteur d’interagir dynamiquement avec lui, pour mettre en place un itinéraire de visite en choisissant des points d’intérêt selon ses propres critères de choix (musées, monuments…).
 
 Cet outil a été crée par : 
 
