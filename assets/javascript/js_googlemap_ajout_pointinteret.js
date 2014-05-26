@@ -17,8 +17,8 @@ function initialize() {
     });
 
     var defaultBounds = new google.maps.LatLngBounds(
-        new google.maps.LatLng(-33.8902, 151.1759),
-        new google.maps.LatLng(-33.8474, 151.2631));
+        new google.maps.LatLng(43, 2),
+        new google.maps.LatLng(50, 4));
     map.fitBounds(defaultBounds);
 
     // Create the search box and link it to the UI element.
@@ -86,6 +86,8 @@ function initialize() {
         placeMarker(e.latLng, map);
     });
 
+
+
 }
 
 function placeMarker(position, map) {
@@ -98,6 +100,9 @@ function placeMarker(position, map) {
         icon: image
     });
     map.panTo(position);
+    google.maps.event.addListener(marker, "rightclick", function() {
+        marker.setMap(null);
+    });
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
