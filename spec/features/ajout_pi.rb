@@ -5,7 +5,7 @@ feature "Add_pi" do
   scenario "with_no_error" do
    
     click_on "type"
-    fill_in_and_select 'Musée', :from => 'meseum_select'
+    select 'Musée', :from => 'meseum_select'
    
    
     click_on "nom"
@@ -45,7 +45,7 @@ feature "Add_pi" do
   scenario "with_error" do
    
     click_on "type"
-    fill_in_and_select 'Musée', :from => 'meseum_select'
+    select 'Musée', :from => 'meseum_select'
    
    
     click_on "nom"
