@@ -93,7 +93,7 @@ function initialize() {
 function placeMarker(position, map) {
     //alert(position);
     syn_location(position   );
-    var image='/IF11/assets/images/logo-utt.jpg';
+    var image='/assets/images/logo-utt.jpg';
     var marker = new google.maps.Marker({
         position: position,
         map: map,
