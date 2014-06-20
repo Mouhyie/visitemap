@@ -11,6 +11,7 @@ Cet outil a été crée par :
       Hoang Long MAI <hoang_long.mai@utt.fr>,
       Sebastien Pecoul <pecoul.sebastien@gmail.com>,
       Guokan Shang <guokan.shang@utt.fr>
+      Bourabaa Mouhyeddine <mouhyeddine.bourabaa@utt.fr>
 
 
 VisiteMap est protégé par l''Agence pour la protection des programmes (APP)
